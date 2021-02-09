@@ -1,0 +1,41 @@
+PODS:
+  - ImageIOSwift (1.1.2)
+  - ImageIOUIKit (1.1.1):
+    - ImageIOSwift (~> 1.1.0)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - SDWebImage/Core (5.10.4)
+  - SDWebImageWebPCoder (0.8.2):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+
+DEPENDENCIES:
+  - ImageIOSwift
+  - ImageIOUIKit
+  - SDWebImageWebPCoder
+
+SPEC REPOS:
+  trunk:
+    - ImageIOSwift
+    - ImageIOUIKit
+    - libwebp
+    - SDWebImage
+    - SDWebImageWebPCoder
+
+SPEC CHECKSUMS:
+  ImageIOSwift: b0a29a05df3a5177253bfe051945938f9fc57520
+  ImageIOUIKit: 2cad0673a2377e94444d2ea7ef1703f73e3cea4b
+  libwebp: 946cb3063cea9236285f7e9a8505d806d30e07f3
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  SDWebImageWebPCoder: f56ab499e3ea57dfeb6c3187dce183b10e160db0
+
+PODFILE CHECKSUM: 0fb4e180fada94c2bf16361bf1319ef3c030d4fd
+
+COCOAPODS: 1.10.0
