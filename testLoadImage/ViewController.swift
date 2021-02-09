@@ -6,6 +6,7 @@
 //
 
 import UIKit
+//import CoreImage
 
 class ViewController: UIViewController {
 
@@ -25,8 +26,18 @@ class ViewController: UIViewController {
         guard let path = Bundle.main.path(forResource: "jpg2k", ofType: "") else {
             fatalError("no resources")
         }
-        let image = UIImage(contentsOfFile: path)
 
+        // 1. UIImage.contentsOfFile
+        let image = UIImage(contentsOfFile: path) // failed
+
+        // 2. data -> UIImage
+//        let url = URL(fileURLWithPath: path)
+//        let data = try! Data(contentsOf: url)
+//        let image = UIImage(data: data) // failed
+
+        // 3. load with CIImage also failed
+//        let ciImage = CIImage(contentsOf: url)!
+//        let image = UIImage(cgImage: ciImage.cgImage!)
         imageView.image = image
     }
 
