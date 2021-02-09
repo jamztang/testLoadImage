@@ -15,6 +15,7 @@
 		1A5E696925D257F2004DA7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E696725D257F2004DA7F0 /* LaunchScreen.storyboard */; };
 		1A5E697425D257F2004DA7F0 /* testLoadImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E697325D257F2004DA7F0 /* testLoadImageTests.swift */; };
 		1A5E697F25D257F2004DA7F0 /* testLoadImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5E697E25D257F2004DA7F0 /* testLoadImageUITests.swift */; };
+		1A5E698E25D25811004DA7F0 /* jpg2k in Resources */ = {isa = PBXBuildFile; fileRef = 1A5E698D25D25811004DA7F0 /* jpg2k */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A5E697A25D257F2004DA7F0 /* testLoadImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testLoadImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A5E697E25D257F2004DA7F0 /* testLoadImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testLoadImageUITests.swift; sourceTree = "<group>"; };
 		1A5E698025D257F2004DA7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A5E698D25D25811004DA7F0 /* jpg2k */ = {isa = PBXFileReference; lastKnownFileType = file; path = jpg2k; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1A5E695B25D257F1004DA7F0 /* testLoadImage */ = {
 			isa = PBXGroup;
 			children = (
+				1A5E698C25D25801004DA7F0 /* Resources */,
 				1A5E695C25D257F1004DA7F0 /* AppDelegate.swift */,
 				1A5E695E25D257F1004DA7F0 /* SceneDelegate.swift */,
 				1A5E696025D257F1004DA7F0 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				1A5E698025D257F2004DA7F0 /* Info.plist */,
 			);
 			path = testLoadImageUITests;
+			sourceTree = "<group>";
+		};
+		1A5E698C25D25801004DA7F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A5E698D25D25811004DA7F0 /* jpg2k */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A5E696925D257F2004DA7F0 /* LaunchScreen.storyboard in Resources */,
+				1A5E698E25D25811004DA7F0 /* jpg2k in Resources */,
 				1A5E696625D257F2004DA7F0 /* Assets.xcassets in Resources */,
 				1A5E696425D257F1004DA7F0 /* Main.storyboard in Resources */,
 			);
@@ -439,6 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5BVQ8XRL4;
 				INFOPLIST_FILE = testLoadImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5BVQ8XRL4;
 				INFOPLIST_FILE = testLoadImage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
